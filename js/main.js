@@ -1,4 +1,5 @@
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric";
+const apiKey = process.env.WEATHERAPPAPIKEY;
 
 const temperature = document.getElementById("temp");
 const city = document.getElementById("city");
